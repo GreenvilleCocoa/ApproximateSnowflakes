@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AC8A351A364FE600BF8EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC8A341A364FE600BF8EF5 /* AppDelegate.swift */; };
+		41AC8A371A364FE600BF8EF5 /* SnowflakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC8A361A364FE600BF8EF5 /* SnowflakeViewController.swift */; };
+		41AC8A3A1A364FE600BF8EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AC8A381A364FE600BF8EF5 /* Main.storyboard */; };
+		41AC8A3C1A364FE600BF8EF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AC8A3B1A364FE600BF8EF5 /* Images.xcassets */; };
+		41AC8A3F1A364FE600BF8EF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC8A3D1A364FE600BF8EF5 /* LaunchScreen.xib */; };
+		41AC8A4B1A364FE600BF8EF5 /* SnowflakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC8A4A1A364FE600BF8EF5 /* SnowflakesTests.swift */; };
+		41AC8A551A36501E00BF8EF5 /* SnowflakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC8A541A36501E00BF8EF5 /* SnowflakeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AC8A451A364FE600BF8EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AC8A271A364FE600BF8EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AC8A2E1A364FE600BF8EF5;
+			remoteInfo = Snowflakes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41AC8A2F1A364FE600BF8EF5 /* Snowflakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snowflakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AC8A331A364FE600BF8EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AC8A341A364FE600BF8EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41AC8A361A364FE600BF8EF5 /* SnowflakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowflakeViewController.swift; sourceTree = "<group>"; };
+		41AC8A391A364FE600BF8EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41AC8A3B1A364FE600BF8EF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41AC8A3E1A364FE600BF8EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		41AC8A441A364FE600BF8EF5 /* SnowflakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowflakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AC8A491A364FE600BF8EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AC8A4A1A364FE600BF8EF5 /* SnowflakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowflakesTests.swift; sourceTree = "<group>"; };
+		41AC8A541A36501E00BF8EF5 /* SnowflakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowflakeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AC8A2C1A364FE600BF8EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AC8A411A364FE600BF8EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AC8A261A364FE600BF8EF5 = {
+			isa = PBXGroup;
+			children = (
+				41AC8A311A364FE600BF8EF5 /* Snowflakes */,
+				41AC8A471A364FE600BF8EF5 /* SnowflakesTests */,
+				41AC8A301A364FE600BF8EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41AC8A301A364FE600BF8EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41AC8A2F1A364FE600BF8EF5 /* Snowflakes.app */,
+				41AC8A441A364FE600BF8EF5 /* SnowflakesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41AC8A311A364FE600BF8EF5 /* Snowflakes */ = {
+			isa = PBXGroup;
+			children = (
+				41AC8A341A364FE600BF8EF5 /* AppDelegate.swift */,
+				41AC8A361A364FE600BF8EF5 /* SnowflakeViewController.swift */,
+				41AC8A541A36501E00BF8EF5 /* SnowflakeView.swift */,
+				41AC8A381A364FE600BF8EF5 /* Main.storyboard */,
+				41AC8A3B1A364FE600BF8EF5 /* Images.xcassets */,
+				41AC8A3D1A364FE600BF8EF5 /* LaunchScreen.xib */,
+				41AC8A321A364FE600BF8EF5 /* Supporting Files */,
+			);
+			path = Snowflakes;
+			sourceTree = "<group>";
+		};
+		41AC8A321A364FE600BF8EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41AC8A331A364FE600BF8EF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41AC8A471A364FE600BF8EF5 /* SnowflakesTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AC8A4A1A364FE600BF8EF5 /* SnowflakesTests.swift */,
+				41AC8A481A364FE600BF8EF5 /* Supporting Files */,
+			);
+			path = SnowflakesTests;
+			sourceTree = "<group>";
+		};
+		41AC8A481A364FE600BF8EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41AC8A491A364FE600BF8EF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AC8A2E1A364FE600BF8EF5 /* Snowflakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AC8A4E1A364FE600BF8EF5 /* Build configuration list for PBXNativeTarget "Snowflakes" */;
+			buildPhases = (
+				41AC8A2B1A364FE600BF8EF5 /* Sources */,
+				41AC8A2C1A364FE600BF8EF5 /* Frameworks */,
+				41AC8A2D1A364FE600BF8EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snowflakes;
+			productName = Snowflakes;
+			productReference = 41AC8A2F1A364FE600BF8EF5 /* Snowflakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AC8A431A364FE600BF8EF5 /* SnowflakesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AC8A511A364FE600BF8EF5 /* Build configuration list for PBXNativeTarget "SnowflakesTests" */;
+			buildPhases = (
+				41AC8A401A364FE600BF8EF5 /* Sources */,
+				41AC8A411A364FE600BF8EF5 /* Frameworks */,
+				41AC8A421A364FE600BF8EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AC8A461A364FE600BF8EF5 /* PBXTargetDependency */,
+			);
+			name = SnowflakesTests;
+			productName = SnowflakesTests;
+			productReference = 41AC8A441A364FE600BF8EF5 /* SnowflakesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41AC8A271A364FE600BF8EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Greenville Cocoaheads";
+				TargetAttributes = {
+					41AC8A2E1A364FE600BF8EF5 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 645BJQN75D;
+					};
+					41AC8A431A364FE600BF8EF5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 41AC8A2E1A364FE600BF8EF5;
+					};
+				};
+			};
+			buildConfigurationList = 41AC8A2A1A364FE600BF8EF5 /* Build configuration list for PBXProject "Snowflakes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41AC8A261A364FE600BF8EF5;
+			productRefGroup = 41AC8A301A364FE600BF8EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AC8A2E1A364FE600BF8EF5 /* Snowflakes */,
+				41AC8A431A364FE600BF8EF5 /* SnowflakesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AC8A2D1A364FE600BF8EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AC8A3A1A364FE600BF8EF5 /* Main.storyboard in Resources */,
+				41AC8A3F1A364FE600BF8EF5 /* LaunchScreen.xib in Resources */,
+				41AC8A3C1A364FE600BF8EF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AC8A421A364FE600BF8EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AC8A2B1A364FE600BF8EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AC8A551A36501E00BF8EF5 /* SnowflakeView.swift in Sources */,
+				41AC8A371A364FE600BF8EF5 /* SnowflakeViewController.swift in Sources */,
+				41AC8A351A364FE600BF8EF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AC8A401A364FE600BF8EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AC8A4B1A364FE600BF8EF5 /* SnowflakesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AC8A461A364FE600BF8EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AC8A2E1A364FE600BF8EF5 /* Snowflakes */;
+			targetProxy = 41AC8A451A364FE600BF8EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41AC8A381A364FE600BF8EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AC8A391A364FE600BF8EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41AC8A3D1A364FE600BF8EF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AC8A3E1A364FE600BF8EF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41AC8A4C1A364FE600BF8EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41AC8A4D1A364FE600BF8EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AC8A4F1A364FE600BF8EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Development: Austin Younts (5DQ5PK3WQ9)";
+				INFOPLIST_FILE = Snowflakes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41AC8A501A364FE600BF8EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Snowflakes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41AC8A521A364FE600BF8EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnowflakesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowflakes.app/Snowflakes";
+			};
+			name = Debug;
+		};
+		41AC8A531A364FE600BF8EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnowflakesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowflakes.app/Snowflakes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AC8A2A1A364FE600BF8EF5 /* Build configuration list for PBXProject "Snowflakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AC8A4C1A364FE600BF8EF5 /* Debug */,
+				41AC8A4D1A364FE600BF8EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AC8A4E1A364FE600BF8EF5 /* Build configuration list for PBXNativeTarget "Snowflakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AC8A4F1A364FE600BF8EF5 /* Debug */,
+				41AC8A501A364FE600BF8EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AC8A511A364FE600BF8EF5 /* Build configuration list for PBXNativeTarget "SnowflakesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AC8A521A364FE600BF8EF5 /* Debug */,
+				41AC8A531A364FE600BF8EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41AC8A271A364FE600BF8EF5 /* Project object */;
+}
